@@ -38,6 +38,3 @@ df = pd.read_csv('gallstone.csv')
 di = DataInvestigator(df)
 
 print(di.baseline(1))   #53
-print(di.zeroR(1))      #53
-print(di.corr(0, 1))    #some value
-print(di.baseline(99))  #none, no column 99
